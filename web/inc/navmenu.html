@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet"
+	href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+	integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+	crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+
+<title>About Photo Store</title>
+</head>
+<body>
+    <header>
+            <div class="menu-btn">
+                    <div class="btn-line"></div>
+                    <div class="btn-line"></div>
+                    <div class="btn-line"></div>
+            </div>
+            <nav class="menu">
+                    <div class="nav">
+                        <div class="list">
+                            <ul class="menu-nav">
+                                    <li class="nav-item">
+                                        <a href="../index.jsp" class="nav-link"><span class="text-secondary">PhotoStore</span></a>
+                                    </li>
+                                    <li class="nav-item" id="nav-form">
+                                        <form class="form-inline search" action="PhotoCatalogServlet" method="post">
+                                            <input class="" type="text" name="type" placeholder="Search">
+                                            <button class="" type="submit">Search</button>
+                                        </form>
+                                    </li>
+                                    <li class="dropdown nav-item">
+                                        <a href="javascript:void(0)" class="dropbtn">Browse</a>
+                                        <div class="dropdown-content">
+                                          <a href="/PhotoStore/PhotoCatalogServlet">All photos</a>
+                                          <a href="#">Popular</a>
+                                          <a href="#">Recent</a>
+                                        </div>
+                                      </li>
+                                    <li class="nav-item">
+                                        <a href="view/login.jsp" class="nav-link">License</a>
+                                    </li>
+                                    <li class="nav-item"><a href="view/signup.jsp"
+                                            class="nav-link">Upload your photos</a></li>
+                                    <li class="dropdown nav-item">
+                                        <a href="javascript:void(0)" class="dropbtn">***</a>
+                                        <div class="dropdown-content">
+                                          <a href="view/login.jsp">Login</a>
+                                          <a href="view/logout.jsp">Logout</a>
+                                          <a href="view/signup.jsp">Sign up</a>
+                                          <a href="#">About us</a>
+                                          <a href="#">FAQ</a>
+                                        </div>
+                                      </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+            </nav>
+    </header>
+</body>
+</html>
